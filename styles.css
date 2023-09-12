@@ -1,0 +1,204 @@
+body
+{
+    padding: 50px;
+    background-image: url('images/3409297.jpg') ;
+    /* background-attachment: fixed; */
+    background-size: cover;
+}
+nav
+{
+    display: flex;
+    justify-content: end;
+
+}
+nav div:hover
+{
+    color:aqua;
+    font-size: 18px;
+}
+div
+{
+    color: white;
+    margin-top:20px;
+    margin-left:20px;
+    margin-bottom:20px;
+    /* border: 10px solid #969696; */
+}
+img
+{
+    width: 300px;
+}
+.name
+{
+    display: flex;
+    justify-content: space-around;
+}
+.my
+{
+    font-size: 50px;
+}
+h1,h2,h3,p,li
+{
+    color:white;
+}
+
+.about
+{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.719);
+    height: 150px;
+    margin-left:-20px;
+    margin-right:-20px;
+}
+.about h2
+{
+    font-size: 30px;
+    margin-bottom: 0%;
+}
+.about p
+{
+    width: 800px;
+    margin: auto;
+    margin-top: 20px ;  
+}
+
+
+.education
+{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.719);
+    
+}
+.education h2
+{
+    font-size: 30px;
+    margin-bottom: 0%;
+}
+
+.liner
+{
+    display: flex;
+    justify-content: space-around;
+    height: 3px;
+    margin-left: 0px;
+    background-color: blue;
+}
+.liner button
+{
+    width:0px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.status
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 0px;
+}
+.highschool
+{
+    background-color: rgba(0, 0, 0, 0.719);
+    position: absolute;
+    display: flex;
+    margin-top: 200px;
+    margin-left: 52px;
+    visibility: hidden;
+}
+.intermediate
+{
+    background-color: rgba(0, 0, 0, 0.719);
+    position: absolute;
+    display: flex;
+    margin-top: 200px;
+    margin-left: 522px;
+    visibility: hidden;
+}
+.undergraduate
+{
+    background-color: rgba(0, 0, 0, 0.719);
+    position: absolute;
+    display: flex;
+    margin-top: 200px;
+    margin-left: 982px;
+    visibility: hidden;
+}
+
+.show
+{
+    visibility: visible;
+    background-color: rgb(71, 71, 156);
+    box-shadow: 0 0  1em  rgb(231, 192, 115);
+}
+
+.first:hover
+{
+    background-color: green;
+}
+.second:hover
+{
+    background-color: green;
+}
+.third:hover
+{
+    background-color: green;
+}
+
+.skills
+{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+.skillimages
+{
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+}
+.skilllabel
+{
+    display: flex;
+}
+
+img
+{
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+}
+img:hover
+{
+    position: relative;
+    box-shadow: 0 0  2em  rgba(20, 238, 24, 0.973);
+    width: 330px;
+
+}
+.coding
+{
+    width: 320px;
+    height: 310px;
+}
+.webdev
+{
+    width: 320px;
+    height: 310px;
+}
+.machine
+{
+    width: 320px;
+    height: 310px;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+a:hover
+{
+    color:aqua;
+    font-size: 18px;
+}
+
+    
